@@ -1,0 +1,25 @@
+.hero {
+  height: 100vh;
+  background-image: url("../assets/hero.jpg");
+}
+
+.tittle h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: white;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+}
+
+.tittle {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translateX(-50%) translateY(-50%);
+}

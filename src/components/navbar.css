@@ -1,0 +1,49 @@
+.nav-container {
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-weight: 700;
+}
+
+.item:hover {
+  font-weight: 500;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(107, 134, 237);
+  border: 5px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 0px 10px;
+}
+
+.signup {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border: 1.5px solid;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 0px 10px;
+}
+
+.login:hover {
+  color: black;
+  background-color: white;
+  border: 1.5px solid black;
+}
+
+.signup:hover {
+  background-color: rgb(107, 134, 237);
+  border: 0;
+  color: white;
+}

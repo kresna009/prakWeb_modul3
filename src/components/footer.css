@@ -1,0 +1,15 @@
+.container-foot {
+  align-items: center;
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 12px 0px;
+  font-size: 18px;
+}
+
+.title-foot {
+  color: gray;
+}
