@@ -1,4 +1,51 @@
 .about-container {
-  height: 100vh;
+  height: 90vh;
+  background-image: url("../assets/web-bg.jpg");
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
 
+.title-about h1 {
+  align-items: center;
+  margin: 4rem 0px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.lab-pict {
+  width: 600px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-about h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.text-about h4 {
+  font-weight: 400;
+  width: 40rem;
+  text-align: left;
+}
+
+.text-about li {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.lab-list-text h4 {
+  font-weight: 100;
+}
+
+.welcome-text-about {
+  margin: 0px 0px 2rem 0px;
 }

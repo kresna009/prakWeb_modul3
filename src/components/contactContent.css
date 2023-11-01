@@ -1,3 +1,69 @@
 .contact-container {
-  height: 100vh;
+  height: 90vh;
+  background-image: url("../assets/web-bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title h1 {
+  align-items: center;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.wrapper-box {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 40%;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.sosmed-contact h4 {
+  font-weight: 400;
+}
+
+.sosmed-contact ol {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 1rem 0;
+}
+
+.contact-form {
+  display: flex;
+  align-items: start;
+}
+
+.contact-form input,
+textarea {
+  margin: 0.7rem 0;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  width: 18rem;
+}
+
+.submit-btn {
+  background-color: rgb(107, 134, 237);
+  color: white;
+  border: 1px solid;
+  border-radius: 15px;
+  height: 2.6rem;
+  width: 10rem;
+}
+
+.submit-btn:hover {
+  background-color: rgb(71, 101, 218);
 }

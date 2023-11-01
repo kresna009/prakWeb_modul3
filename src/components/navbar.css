@@ -37,13 +37,10 @@
 }
 
 .login:hover {
-  color: black;
-  background-color: white;
-  border: 1.5px solid black;
+  color: white;
+  background-color: rgb(71, 101, 218);
 }
 
 .signup:hover {
-  background-color: rgb(107, 134, 237);
-  border: 0;
-  color: white;
+  background-color: greenyellow;
 }
