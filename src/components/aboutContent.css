@@ -1,5 +1,5 @@
 .about-container {
-  height: 90vh;
+  height: 100vh;
   background-image: url("../assets/web-bg.jpg");
   background-size: cover;
   display: flex;
@@ -10,12 +10,13 @@
 .title-about h1 {
   align-items: center;
   margin: 4rem 0px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .lab-pict {
-  width: 600px;
+  width: 400px;
+  height: 400px;
 }
 
 .about-content {
@@ -24,7 +25,7 @@
 }
 
 .text-about h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0 0 1rem 0;
 }
@@ -32,18 +33,20 @@
 .text-about h4 {
   font-weight: 400;
   width: 40rem;
+  font-size: 0.8rem;
   text-align: left;
 }
 
 .text-about li {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
-  margin: 1rem 0;
+  margin: 0.8rem 0;
 }
 
 .lab-list-text h4 {
   font-weight: 100;
+  font-size: 0.9rem;
 }
 
 .welcome-text-about {
